@@ -2,18 +2,20 @@
     margin: 0;
 }
 
-body {
+/* index */
+
+.body-main {
     padding-left: 150px;
     padding-right: 150px;
     background-color:aliceblue;
 }
 
-header {
+.header-home {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
-main {
+.main-index {
     display: flex;
 
 }
@@ -45,7 +47,7 @@ article img {
     height: auto;
 }
 
-article img:hover{
+.page-criada img:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -56,6 +58,7 @@ h1 {
     padding-bottom: 25px;
     padding-top: 10px;
     color: #0288D1;
+    margin-left: 60px;
 }
 
 p {
@@ -70,3 +73,79 @@ footer {
     background-color: #0288D1;
     color: white;
 }
+
+
+/* parque_esculturas */
+.header-second {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url("./img/letreiro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 50vh;
+
+}
+
+.header-second nav {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.header-second nav ul li {
+
+    list-style-type: none;
+}
+
+.header-second nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-parque {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.local-park p {
+    margin-right: 50px;
+}
+
+.local-park iframe {
+    padding-right: 50px;
+    margin-bottom: 30px;
+
+}
+
+.galeria-parque {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.galeria-parque a {
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.galeria-parque img {
+    width: 350px; 
+    margin-right: 20px;
+}
+
+.galeria-parque img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
