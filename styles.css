@@ -76,6 +76,37 @@ footer {
 
 
 /* parque_esculturas */
+.header-third {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url("./img/vista_mar_h.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 50vh;
+
+}
+
+.header-third nav {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.header-third nav ul li {
+
+    list-style-type: none;
+}
+
+.header-third nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 .header-second {
     display: flex;
     justify-content: start;
