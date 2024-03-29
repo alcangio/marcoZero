@@ -5,8 +5,8 @@
 /* index */
 
 .body-main {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color:aliceblue;
 }
 
@@ -22,13 +22,14 @@
 
 .texto {
     padding-right: 25px;
-    width: 50%;
+    width: 100%;
 }
 .galeria {
-    display: block;
+    display: column;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
+    width: 100%;
 }
 
 .container {
@@ -37,14 +38,19 @@
 }
 
 article {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     justify-content: center;
-    padding: 20px;
+    font-size: small;
+    margin: 10px;
 
 }
 article img {
+    flex: 1;
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding-bottom: 0;
 }
 
 .page-criada img:hover{
@@ -55,10 +61,10 @@ article img {
 h1 {
     font-size: 3rem;
     font-family: "Cabin", sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     padding-top: 10px;
     color: #0288D1;
-    margin-left: 60px;
+    margin-left: 15px;
 }
 
 p {
