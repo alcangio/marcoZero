@@ -5,8 +5,6 @@
 /* index */
 
 .body-main {
-    padding-left: 70px;
-    padding-right: 70px;
     background-color:aliceblue;
 }
 
@@ -17,6 +15,8 @@
 
 .main-index {
     display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
 
 }
 
@@ -53,6 +53,7 @@ article img {
     padding-bottom: 0;
 }
 
+
 .page-criada img:hover{
     transform: scale(1.1);
     transition: 0.3s;
@@ -63,8 +64,8 @@ h1 {
     font-family: "Cabin", sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
+    padding-left: 70px;
     color: #0288D1;
-    margin-left: 15px;
 }
 
 p {
@@ -78,6 +79,7 @@ footer {
     justify-content: center;
     background-color: #0288D1;
     color: white;
+    margin: 0px;
 }
 
 
@@ -86,7 +88,7 @@ footer {
     display: flex;
     justify-content: start;
     align-items: end;
-    background-image: url("./img/vista_mar_h.png");
+    background-image: url("./img/letreiro.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
